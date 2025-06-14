@@ -69,7 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeWebsite() {
     // Initialize loading screen
-    initLoadingScreen();
     
     // Initialize navigation
     initNavigation();
