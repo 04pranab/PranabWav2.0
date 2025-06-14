@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Pranab Mohanty - Developer Portfolio</title>
+    <meta name="description" content="Computer Science Student & Developer specializing in Python, Web Development, and Data Structures">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Om<span class="accent">.</span>dev</span>
+                <div class="logo-pulse"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span class="wave">👋</span>
+                    <span>Hello, I'm</span>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-part">Om Pranab</span>
+                    <span class="name-part delay-1">Mohanty</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role-text">I'm a </span>
+                    <div class="rotating-text">
+                        <span class="text-item active">Computer Science Student</span>
+                        <span class="text-item">Python Developer</span>
+                        <span class="text-item">Problem Solver</span>
+                        <span class="text-item">Tech Enthusiast</span>
+                    </div>
+                </div>
+                <p class="hero-description">
+                    Currently pursuing B.Sc. Mathematical Sciences & Computing at SSSIHL,
+                    passionate about coding, data structures, and creating innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>Get In Touch
+                    </a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/04pranab" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ompranabmohanty" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ompranabmohanty@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="card-glow"></div>
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="status-indicator">
+                                <div class="status-dot"></div>
+                                <span>Available for opportunities</span>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Om Pranab Mohanty</h3>
+                            <p>B.Sc. Mathematical Sciences & Computing</p>
+                            <div class="profile-stats">
+                                <div class="stat">
+                                    <span class="stat-number">8.4</span>
+                                    <span class="stat-label">GPA</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">2027</span>
+                                    <span class="stat-label">Graduation</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" data-tech="python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="floating-icon" data-tech="html">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="floating-icon" data-tech="database">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-icon" data-tech="code">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-block">
+                        <h3>Who I Am</h3>
+                        <p>I'm a passionate Computer Science student at Sri Sathya Sai Institute of Higher Learning, 
+                        currently in my third year of B.Sc. Mathematical Sciences & Computing. With a strong foundation 
+                        in mathematics and programming, I love solving complex problems and building innovative solutions.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>What I Do</h3>
+                        <p>I specialize in Python development, data structures & algorithms, and web technologies. 
+                        Beyond coding, I'm actively involved in leadership roles and community service, serving as 
+                        Awaaz Club Coordinator and Tech Lead at various clubs.</p>
+                    </div>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span>Coding</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <span>Books</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-plane"></i>
+                            <span>Travel</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-pen"></i>
+                            <span>Creative Writing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="achievement-cards">
+                        <div class="achievement-card">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Academic Excellence</h4>
+                            <p>Maintaining 8.4 GPA in Mathematical Sciences & Computing</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="card-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Leadership</h4>
+                            <p>Coordinator at Awaaz Club & Tech Lead at Vachanamrutam Club</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="card-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h4>Certifications</h4>
+                            <p>HackerRank Problem Solving, Python, SQL & AI Fundamentals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card current">
+                            <div class="card-header">
+                                <h3>B.Sc. Mathematical Sciences & Computing</h3>
+                                <span class="duration">2023 – 2027</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="institution">Sri Sathya Sai Institute of Higher Learning</p>
+                                <div class="grade">
+                                    <span class="grade-label">Current GPA:</span>
+                                    <span class="grade-value">8.4</span>
+                                </div>
+                                <div class="highlights">
+                                    <span class="highlight">Mathematical Sciences</span>
+                                    <span class="highlight">Computer Programming</span>
+                                    <span class="highlight">Data Structures</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>Class 12 (CBSE)</h3>
+                                <span class="duration">2024</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="institution">SSS Higher Secondary School</p>
+                                <div class="grade">
+                                    <span class="grade-label">Percentage:</span>
+                                    <span class="grade-value">85%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3>Class 10 (CBSE)</h3>
+                                <span class="duration">2020</span>
+                            </div>
+                            <div class="card-body">
+                                <p class="institution">Ghanashyam Hemala Vidya Mandir</p>
+                                <div class="grade">
+                                    <span class="grade-label">Percentage:</span>
+                                    <span class="grade-value">94%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">What I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i>Web & Design
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Graphic Design</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>Tools & Technologies
+                    </h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>DBMS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Pygame</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-window-maximize"></i>
+                            <span>Tkinter</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-user-friends"></i>Soft Skills
+                    </h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill">Public Speaking</div>
+                        <div class="soft-skill">Team Leadership</div>
+                        <div class="soft-skill">Problem Solving</div>
+                        <div class="soft-skill">Creative Thinking</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/04pranab" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/04pranab/2048-PYGAME" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">2048 Game</h3>
+                        <p class="project-description">
+                            Classic 2048 puzzle game built with Python and Pygame featuring 
+                            smooth animations, score tracking, and responsive controls.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pygame</span>
+                            <span class="tech-tag">Game Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/04pranab" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/04pranab/DISCRETE-MATHEMATICS-VISUALIZATION-IN-PYTHON" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Discrete Math Visualisation</h3>
+                        <p class="project-description">
+                            Interactive visualization tool for discrete mathematics concepts 
+                            using Python, Tkinter, and Matplotlib for educational purposes.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/04pranab" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Structures in C</h3>
+                        <p class="project-description">
+                            Comprehensive implementation of fundamental data structures including 
+                            Stacks, Queues, Linked Lists, BST, AVL Trees, and Graph algorithms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C/C++</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">DSA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-sort-amount-up"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/04pranab" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/04pranab/SORTING-IN-PYTHON" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sorting Algorithms</h3>
+                        <p class="project-description">
+                            Python implementation and visualization of various sorting algorithms 
+                            with performance analysis and time complexity comparisons.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <p class="section-subtitle">Professional development milestones</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Problem Solving</h3>
+                    <p>Basic & Intermediate</p>
+                    <span class="cert-issuer">HackerRank</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Programming</h3>
+                    <p>Certification</p>
+                    <span class="cert-issuer">HackerRank</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                    <span class="cert-issuer">HackerRank</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Canva Essentials</p>
+                    <span class="cert-issuer">Canva, Credly</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Fundamentals</h3>
+                    <p>Artificial Intelligence</p>
+                    <span class="cert-issuer">Credly</span>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Teacher Essentials</h3>
+                    <p>Educational Technology</p>
+                    <span class="cert-issuer">Canva</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>ompranabmohanty@gmail.com</p>
+                        <a href="mailto:ompranabmohanty@gmail.com" class="contact-link">Send Email</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 9938827986</p>
+                        <a href="tel:+919938827986" class="contact-link">Call Now</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Jagatsinghpur, Odisha</p>
+                        <span class="contact-link">India</span>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-loader"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/04pranab" target="_blank" class="social-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/ompranabmohanty" target="_blank" class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:ompranabmohanty@gmail.com" class="social-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="#" target="_blank" class="social-item">
+                    <i class="fas fa-globe"></i>
+                    <span>Portfolio</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">Om<span class="accent">.</span>dev</div>
+                    <p>Computer Science Student & Developer</p>
+                    <div class="footer-languages">
+                        <span>🇮🇳 English</span>
+                        <span>🇮🇳 Hindi</span>
+                        <span>🇮🇳 Odia</span>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2024 Om Pranab Mohanty. Built with ❤️ and lots of ☕</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
