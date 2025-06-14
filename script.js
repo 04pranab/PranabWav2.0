@@ -100,7 +100,7 @@ function initLoadingScreen() {
     // Hide loading screen after 3 seconds
     setTimeout(() => {
         loadingScreen.classList.add('hidden');
-    }, 3000);
+    }, 1000);
 }
 
 // Navigation
